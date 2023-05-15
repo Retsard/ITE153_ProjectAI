@@ -1,6 +1,7 @@
 const cameraBtn = document.getElementById("cameraBtn");
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
+const video = document.getElementById("video");
 
 cameraBtn.addEventListener("click", () => {
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
