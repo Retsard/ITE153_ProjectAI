@@ -451,3 +451,169 @@ section
   }
 }
 
+.rider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.rider .content {
+  padding: 0px 100px 0px 100px;
+}
+
+.rider .content h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(164, 110, 81);
+}
+
+.rider .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.rider .content p {
+  font-size: 15px;
+  color: #848484;
+}
+.rider .accordion-list .pic {
+  width: 180px;
+  height: 180px;
+}
+
+.rider .accordion-list .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+  transition: ease-in-out 0.3s;
+}
+
+.rider .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.rider .accordion-list {
+  padding: 25px 100px 25px 100px;
+}
+
+.rider .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.rider .accordion-list li+li {
+  margin-top: 15px;
+}
+
+.rider .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.rider .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.rider .accordion-list span {
+  color: rgb(164, 110, 81);
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+
+.rider .accordion-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.rider .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.rider .accordion-list .icon-show {
+  display: none;
+}
+
+.rider .accordion-list a.collapsed {
+  color: rgb(164, 110, 81);
+}
+
+.rider .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.rider .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .accordion-list {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .accordion-list {
+    width: 500px;
+  }
+  .rider .content,
+  .rider .accordion-list {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .accordion-list {
+    width: 450px;
+  }
+  .rider .img {
+    display: none;
+  }
+
+  .rider .content {
+    padding-top: 30px;
+  }
+
+  .rider .accordion-list {
+    padding-bottom: 30px;
+  }
+  .back-to-home {
+    left: 15px;
+  }
+}
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 575px) {
+  .accordion-list {
+    width: auto;
+  }
+  .rider .img {
+    display:none;
+    
+
+  }
+}
+

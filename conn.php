@@ -1,6 +1,6 @@
 <?php
 
-$host = "localhost:3306";
+$host = "localhost:3308";
 $db_name = "ai_db";
 $username = "root";
 $password = "";
