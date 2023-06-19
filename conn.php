@@ -3,7 +3,7 @@
 $host = "localhost:3306";
 $db_name = "ai_db";
 $username = "root";
-$password = "Dbadmin123!";
+$password = "";
 
 $dsn = "mysql:host=$host;dbname=$db_name;charset=UTF8;";
 try {

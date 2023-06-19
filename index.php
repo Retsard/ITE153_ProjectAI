@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NutriSnap</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/styles.css">
 
     </head>
@@ -21,7 +23,7 @@
         <section class="banner" id="banner">
             <div class="content">
                 <h2>Snap. Scan. Thrive.</h2>
-                <a href="#" class="btn" onclick="startCamera()">Take Photo</a>
+                <a href="#" class="btn" onclick="startCamera()" data-toggle="modal" data-target="#food_scanner">Take Photo</a>
             </div>
         </section>
 
@@ -157,7 +159,6 @@
             <p>Copyright 2023 <a href="#">Richard Joshua Bangoy</a>. All Rights Reserved</p>
         </div>
 
-        <script src="javascript/app.js"></script>
 
                 <div class="modal" id="food_scanner">
             <div class="container-sm">
@@ -184,6 +185,12 @@
             </div>
         </div>
 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+        <script src="javascript/app.js"></script>
     </body>
 
 </html>
