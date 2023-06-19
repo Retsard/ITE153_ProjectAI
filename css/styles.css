@@ -49,7 +49,7 @@ p
 {
   font-size: 1em;
   color: #fff;
-  background: #ff0157;
+  background: #00A86B;
   display: inline-block;
   padding: 10px 30px;
   margin-top: 20px;
@@ -61,7 +61,7 @@ p
 
 .btn:hover
 {
-  color: #000;
+  color: #00A86B;
   background: #fff;
 }
 
@@ -101,7 +101,7 @@ header.sticky .logo
 
 header .logo span
 {
-  color: #ff0157;
+  color: #00A86B;
 }
 
 header .navigation
@@ -130,7 +130,7 @@ header.sticky .navigation li a
 
 header .navigation li a:hover
 {
-  color: #ff0157;
+  color: #00A86B;
   transition: 0.2s;
 }
 
@@ -162,7 +162,7 @@ section
 
 .titleText span
 {
-  color: #ff0157;
+  color: #00A86B;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -286,7 +286,7 @@ section
 {
   font-size: 1em;
   color: #fff;
-  background: #ff0157;
+  background: #00A86B;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -312,7 +312,7 @@ section
 
 .copyrightText a
 {
-  color: #ff0157;
+  color: #00A86B;
   text-decoration: none;
 }
 
@@ -342,12 +342,12 @@ section
     background: #fff;
   }
 
-  header .naviagation li
+  header .navigation li
   {
     margin-left: 0;
   }
   
-  header .naviagation li a
+  header .navigation li a
   {
     color: #111;
     font-size: 1.6em;
@@ -450,3 +450,4 @@ section
     color: #fff;
   }
 }
+

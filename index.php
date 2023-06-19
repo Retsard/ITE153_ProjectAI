@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Food App</title>
+        <title>NutriSnap</title>
         <link rel="stylesheet" href="./css/styles.css">
+
     </head>
     <body>
         <header>
-            <a href="#" class="logo">FoodSnap<span>.</span></a>
+            <a href="#" class="logo">NutriSnap<span>.</span></a>
             <div class="menuToggle" onclick="toggleMenu();"></div>
             <ul class="navigation">
                 <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
@@ -19,9 +20,8 @@
         </header>
         <section class="banner" id="banner">
             <div class="content">
-                <h2>Always Choose Good</h2>
-                <p>AI project tas DOS ang grado</p>
-                <a href="#" class="btn">Take Photo</a>
+                <h2>Snap. Scan. Thrive.</h2>
+                <a href="#" class="btn" onclick="startCamera()">Take Photo</a>
             </div>
         </section>
 
@@ -158,6 +158,32 @@
         </div>
 
         <script src="javascript/app.js"></script>
+
+                <div class="modal" id="food_scanner">
+            <div class="container-sm">
+            <div class="d-flex justify-content-center align-items-center vh-100">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title">Plate Number Scanner</h4>
+                    </div>
+                    <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+                    <div id="interactive" class="viewport d-flex flex-column align-content-center justify-content-center">
+                        <div id="webcam-container"></div>
+                        <div class="error">
+                        <p class="text-danger" id="message-container"></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="stopCamera" onclick="stopCamera()">Close</button>
+                    </div>
+                </div> <!-- /.modal-content -->
+                </div> <!-- /.modal-dialog -->
+            </div> <!-- /.modal -->
+            </div>
+        </div>
+
     </body>
 
 </html>
