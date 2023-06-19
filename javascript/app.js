@@ -100,8 +100,8 @@ async function predict() {
     }
 
     if (highestPrediction && highestPrediction.probability > 0.9) {
-        const driverNumber = highestPrediction.className;
-        sendDriverNumber(driverNumber);
+        const foodName = highestPrediction.className;
+        sendFoodName(foodName);
     } else if (highestPrediction && highestPrediction.probability < 0.7) {
         messageContainer.textContent = "Not Accredited Driver";
     } else {
@@ -110,6 +110,6 @@ async function predict() {
 }
 
     // Send an HTTP request with the driver's number to the PHP script
-function sendDriverNumber(driverNumber) {
-    window.location.href = './driver/camera-platenumber.php?driverNumber=' + driverNumber;
+function sendFoodName(foodName) {
+    window.location.href = 'camera-fruit.php?foodName=' + foodName;
 }
