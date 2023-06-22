@@ -37,11 +37,11 @@ if ($foodStatement->rowCount() === 1) {
     <body>
 
 <!-- ======= Why Us Section ======= -->
-        <section id="food" class="food section-bg">
+        <section id="food" class="container food section-bg">
 
                 <div class="row justify-content-center">
 
-                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1  d-sm-flex align-items-sm-center justify-content-sm-center">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center order-2 order-lg-1">
 
                         <div class="content">
                             <h3><strong>Scan Results</strong></h3>
