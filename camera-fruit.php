@@ -39,32 +39,33 @@ if ($foodStatement->rowCount() === 1) {
 <!-- ======= Why Us Section ======= -->
         <section id="food" class="container food section-bg">
 
-                <div class="row justify-content-center">
+            <div class="row justify-content-center">
 
-                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center order-2 order-lg-1">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center order-2 order-lg-1">
 
-                        <div class="content">
-                            <h3><strong>Scan Results</strong></h3>
-                        </div>
-
-                        <div class="accordion-list">
-                            <ul>
-                                <li>
-                                    <div class="collapse show d-flex flex-column">
-                                    
-                                        <p><strong>Food Name:</strong> <?php echo $food_name ?></p>
-                                        <p><strong>Calories per 100 grams:</strong> <?php echo $food_calories ?></p>
-
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <a class="btn" href="index.php">Return</a>
-
+                    <div class="content">
+                        <h3><strong>Scan Results</strong></h3>
                     </div>
 
+                    <div class="accordion-list">
+                        <ul>
+                            <li>
+                                <div class="collapse show d-flex flex-column">
+                                    
+                                    <p><strong>Food Name:</strong> <?php echo $food_name ?></p>
+                                    <p><strong>Calories per 100 grams:</strong> <?php echo $food_calories ?></p>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a class="btn" href="index.php">Return</a>
+
                 </div>
+
+            </div>
+            
 
         </section><!-- End Why Us Section -->
 

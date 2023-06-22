@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NutriSnap</title>
 
-
+        <link rel="icon" type="image/png" href="./css/images/logo.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/styles.css">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col50">
                     <div class="imgBx">
-                        <img class="img-fluid" src="./css/images/img1.jpg">
+                        <img class="img-fluid" src="./css/images/img1.png">
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
             <div class="content">
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                        <img src="./css/images/macaludos.jpg">
                     </div>
                     <div class="text">
                         <h3>Sofia Macaludos</h3>
@@ -84,15 +84,15 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                        <img src="./css/images/leybag.jpg">
                     </div>
                     <div class="text">
                         <h3>Ivan Kent Leybag</h3>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                    <div class="img-fluid imgBx">
+                        <img src="./css/images/facurib2.jpeg">
                     </div>
                     <div class="text">
                         <h3>Ruby Jane Facurib</h3>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                        <img src="./css/images/mariquit.jpg">
                     </div>
                     <div class="text">
                         <h3>Evan Leonille Mariquit</h3>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                        <img src="./css/images/yongco1.jpg">
                     </div>
                     <div class="text">
                         <h3>Carren Mae Yongco</h3>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                        <img src="./css/images/camintoy.jpg">
                     </div>
                     <div class="text">
                         <h3>Nielmer Camintoy</h3>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/rbangoy.jpg">
+                        <img src="./css/images/rbangoy2.jpg">
                     </div>
                     <div class="text">
                         <h3>Richard Joshua Bangoy</h3>

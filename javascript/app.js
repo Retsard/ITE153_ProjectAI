@@ -14,7 +14,7 @@ function toggleMenu(){
 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
 // the link to your model provided by Teachable Machine export panel
-const URL = "https://teachablemachine.withgoogle.com/models/vZNeljqAU/";
+const URL = "https://teachablemachine.withgoogle.com/models/YYdgDS4P7/";
 
 let model, webcam, maxPredictions, messageContainer;
 let currentCamera = "front"; 
@@ -99,7 +99,7 @@ async function predict() {
         }
     }
 
-    if (highestPrediction && highestPrediction.probability > 0.90) {
+    if (highestPrediction && highestPrediction.probability > 0.99) {
         const foodName = highestPrediction.className;
         sendFoodName(foodName);
     } else {

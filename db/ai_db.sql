@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3308
--- Generation Time: Jun 22, 2023 at 03:21 AM
+-- Generation Time: Jun 22, 2023 at 06:11 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -70,7 +70,12 @@ INSERT INTO `food` (`food_id`, `food_name`, `food_calories`) VALUES
 (30, 'Cucumber', 13),
 (31, 'Potato', 86),
 (32, 'Carrot', 41),
-(33, 'White Radish', 18);
+(33, 'White Radish', 18),
+(34, 'Pineapple', 50),
+(35, 'Strawberry', 32),
+(36, 'Tomato', 20),
+(37, 'Cherry', 50),
+(38, 'Grapes', 67);
 
 --
 -- Indexes for dumped tables
@@ -90,7 +95,7 @@ ALTER TABLE `food`
 -- AUTO_INCREMENT for table `food`
 --
 ALTER TABLE `food`
-  MODIFY `food_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `food_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
