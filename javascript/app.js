@@ -14,7 +14,7 @@ function toggleMenu(){
 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
 // the link to your model provided by Teachable Machine export panel
-const URL = "https://teachablemachine.withgoogle.com/models/9iGagV4xR/";
+const URL = "https://teachablemachine.withgoogle.com/models/vZNeljqAU/";
 
 let model, webcam, maxPredictions, messageContainer;
 let currentCamera = "front"; 
@@ -36,7 +36,7 @@ async function init() {
     maxPredictions = model.getTotalClasses();
 
     // Convenience function to setup a webcam
-    const flip = currentCamera === "front"; // whether to flip the webcam
+    const flip = currentCamera === false; // whether to flip the webcam
     webcam = new tmImage.Webcam(250, 250, flip); // width, height, flip
     await webcam.setup({ facingMode: "environment" }); // request access to the webcam
     await webcam.play();
@@ -99,13 +99,11 @@ async function predict() {
         }
     }
 
-    if (highestPrediction && highestPrediction.probability > 0.9) {
+    if (highestPrediction && highestPrediction.probability > 0.90) {
         const foodName = highestPrediction.className;
         sendFoodName(foodName);
-    } else if (highestPrediction && highestPrediction.probability < 0.7) {
-        messageContainer.textContent = "Not Accredited Driver";
     } else {
-        messageContainer.textContent = "Please scan a plate number";
+        messageContainer.textContent = "Please scan a fruit";
     }
 }
 

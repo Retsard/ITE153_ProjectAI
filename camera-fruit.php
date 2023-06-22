@@ -37,8 +37,7 @@ if ($foodStatement->rowCount() === 1) {
     <body>
 
 <!-- ======= Why Us Section ======= -->
-        <section id="rider" class="rider section-bg">
-            <div class="container-fluid" data-aos="fade-up">
+        <section id="food" class="food section-bg">
 
                 <div class="row justify-content-center">
 
@@ -51,22 +50,22 @@ if ($foodStatement->rowCount() === 1) {
                         <div class="accordion-list">
                             <ul>
                                 <li>
-                                    <a class="collapse"> Food's Information <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-down icon-close"></i></a>
                                     <div class="collapse show d-flex flex-column">
                                     
-                                        <p> Food Name: <?php echo $food_name ?></p>
-                                        <p>Calories per 100 grams: <?php echo $food_calories ?></p>
+                                        <p><strong>Food Name:</strong> <?php echo $food_name ?></p>
+                                        <p><strong>Calories per 100 grams:</strong> <?php echo $food_calories ?></p>
 
                                     </div>
                                 </li>
                             </ul>
                         </div>
 
+                        <a class="btn" href="index.php">Return</a>
+
                     </div>
 
                 </div>
 
-            </div>
         </section><!-- End Why Us Section -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NutriSnap</title>
 
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/styles.css">
 
     </head>
@@ -17,7 +19,6 @@
                 <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
                 <li><a href="#about" onclick="toggleMenu();">About</a></li>
                 <li><a href="#developer" onclick="toggleMenu();">Developers</a></li>
-                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
             </ul>
         </header>
         <section class="banner" id="banner">
@@ -31,17 +32,23 @@
         <section class="about" id="about">
             <div class="row">
                 <div class="col50">
-                    <h2 class="titleText"><span>A</span>bout Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta laboriosam inventore reiciendis nostrum officiis!
-                    Cumque error quae, assumenda dicta natus cupiditate beatae ipsa, quia labore est tempore aliquid obcaecati?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta laboriosam inventore reiciendis nostrum officiis!
-                    Cumque error quae, assumenda dicta natus cupiditate beatae ipsa, quia labore est tempore aliquid obcaecati?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta laboriosam inventore reiciendis nostrum officiis!
-                    Cumque error quae, assumenda dicta natus cupiditate beatae ipsa, quia labore est tempore aliquid obcaecati?<br><br> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem deserunt iure itaque magni? 
-                    Corporis non exercitationem neque consequuntur quidem perferendis, voluptates repellat recusandae tempore sit earum minima officiis iure?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta laboriosam inventore reiciendis nostrum officiis!
-                    Cumque error quae, assumenda dicta natus cupiditate beatae ipsa, quia labore est tempore aliquid obcaecati?</p>
+                    <h2 class="titleText"><span>A</span>bout The App</h2>
+                    <p>NutriSnap is an image classification app that aims to help you in 
+                    making healthier food choices when it comes to fruits and vegetables. 
+                    Leveraging the advanced capabilities of Google Teachable Machines AI, 
+                    NutriSnap excels at recognizing a diverse range of fruits and vegetables.
+                    By simply capturing an image using your phone or desktop camera, NutriSnap 
+                    analyzes the visual data and provides you with valuable information, 
+                    including the name of the food item and its corresponding calorie amount.<br><br>
+                    The app incorporates a database that encompasses a wide variety
+                    of produce, along with their respective calorie information. 
+                    This allows you to make informed decisions regarding your dietary choices, 
+                    helping you maintain a balanced and healthy lifestyle.<br><br>
+                    Whether you're at the grocery store, planning your meals, 
+                    or even just curious about the calorie content of the food on your plate, 
+                    NutriSnap is there to assist you every step of the way. 
+                    Its intuitive interface ensures a smooth and seamless user experience, 
+                    making it accessible to individuals of all levels of tech-savviness.</p>
                 </div>
                 <div class="col50">
                     <div class="imgBx">
@@ -54,8 +61,8 @@
 
         <section class="developer" id="developer">
             <div class="title">
-                <h2 class="titleText">The <span>D</span>evelopers</h2>
-                <p>The Members of the group for this Project</p>
+                <h2 class="titleText"><span>M</span>embers</h2>
+                <p>Members of NutriLabs</p>
             </div>
             <div class="content">
                 <div class="box">
@@ -63,7 +70,15 @@
                         <img src="./css/images/ME 2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Sofia Macaludos</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./css/images/ledesma.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Stephanie Kate Ledesma</h3>
                     </div>
                 </div>
                 <div class="box">
@@ -71,7 +86,7 @@
                         <img src="./css/images/ME 2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Ivan Kent Leybag</h3>
                     </div>
                 </div>
                 <div class="box">
@@ -79,7 +94,7 @@
                         <img src="./css/images/ME 2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Ruby Jane Facurib</h3>
                     </div>
                 </div>
                 <div class="box">
@@ -87,7 +102,7 @@
                         <img src="./css/images/ME 2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Evan Leonille Mariquit</h3>
                     </div>
                 </div>
                 <div class="box">
@@ -95,7 +110,15 @@
                         <img src="./css/images/ME 2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Carren Mae Yongco</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./css/images/dodog.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Bai Nhor Dodog</h3>
                     </div>
                 </div>
                 <div class="box">
@@ -103,64 +126,26 @@
                         <img src="./css/images/ME 2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Nielmer Camintoy</h3>
                     </div>
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
+                        <img src="./css/images/rbangoy.jpg">
                     </div>
                     <div class="text">
-                        <h3>Retsard Juswa</h3>
+                        <h3>Richard Joshua Bangoy</h3>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
-                    </div>
-                    <div class="text">
-                        <h3>Retsard Juswa</h3>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="./css/images/ME 2.jpg">
-                    </div>
-                    <div class="text">
-                        <h3>Retsard Juswa</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact" id="contact">
-            <div class="title">
-                <h2 class="titleText"><span>C</span>ontact Us</h2>
-                <p>Send us your messages or feedback through Email</p>
-            </div>
-            <div class="contactForm">
-                <h3>Send a message</h3>
-                <div class="inputBox">
-                    <input type="text" placeholder="Name">
-                </div>
-                <div class="inputBox">
-                    <input type="text" placeholder="Email">
-                </div>
-                <div class="inputBox">
-                    <textarea placeholder="Message"></textarea>
-                </div>
-                <div class="inputBox">
-                    <input type="submit" value="Send">
                 </div>
             </div>
         </section>
 
         <div class="copyrightText">
-            <p>Copyright 2023 <a href="#">Richard Joshua Bangoy</a>. All Rights Reserved</p>
+            <p>Copyright 2023 <a href="#">NutriLabs</a>. All Rights Reserved</p>
         </div>
 
 
-                <div class="modal" id="food_scanner">
+        <div class="modal" id="food_scanner">
             <div class="container-sm">
             <div class="d-flex justify-content-center align-items-center vh-100">
                 <div class="modal-dialog">
@@ -185,7 +170,10 @@
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
