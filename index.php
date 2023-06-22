@@ -29,7 +29,7 @@
         </section>
 
 
-        <section class="about" id="about">
+        <section class="d-flex justify-content-center about" id="about">
             <div class="row">
                 <div class="col50">
                     <h2 class="titleText"><span>A</span>bout The App</h2>
@@ -48,11 +48,12 @@
                     or even just curious about the calorie content of the food on your plate, 
                     NutriSnap is there to assist you every step of the way. 
                     Its intuitive interface ensures a smooth and seamless user experience, 
-                    making it accessible to individuals of all levels of tech-savviness.</p>
+                    making it accessible to individuals of all levels of tech-savviness.
+                    </p>
                 </div>
                 <div class="col50">
                     <div class="imgBx">
-                        <img src="./css/images/img1.jpg">
+                        <img class="img-fluid" src="./css/images/img1.jpg">
                     </div>
                 </div>
             </div>
